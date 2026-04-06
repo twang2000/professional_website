@@ -1,0 +1,20 @@
+title: Tuan Wang
+description: SDET Portfolio | Test Automation | Network Systems Validation
+url: ""
+baseurl: ""
+theme: minima
+markdown: kramdown
+
+author:
+  name: Tuan Wang
+  email: tuanwang1@gmail.com
+
+header_pages:
+  - resume.md
+  - projects.md
+  - blog.md
+  - contact.md
+
+minima:
+  social_links:
+    github: tuanwang1

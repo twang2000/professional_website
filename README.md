@@ -27,8 +27,13 @@ Personal website for **Tuan Wang**, focused on SDET experience, projects, and te
 
 ## Publish on GitHub Pages
 1. Push this repository to GitHub.
-2. In **Settings → Pages**, set source to **GitHub Actions** or **Deploy from branch**.
-3. If using branch deploy, use `main` (or your default branch) and root folder.
+2. In **Settings -> Pages**, set **Source** to **GitHub Actions**.
+3. Do not also configure **Deploy from branch** for this repo. The workflow in `.github/workflows/jekyll.yml` handles deployment.
+4. After the workflow succeeds, the site should publish at `https://twang2000.github.io/professional_website/`.
+
+## Notes for This Repo
+- This is a project site, not a user site, so links must respect the repository base path.
+- The Pages workflow uses GitHub's built-in Jekyll Pages action.
 
 ## Next Customizations
 - Replace LinkedIn and Calendly placeholders.

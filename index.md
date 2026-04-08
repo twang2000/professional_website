@@ -9,8 +9,8 @@ SDET-focused engineer building robust automation, network validation workflows, 
 
 - 📧 [tuanwang1@gmail.com](mailto:tuanwang1@gmail.com)
 - 📍 San Jose, California
-- 🔗 [View Resume](/resume/)
-- 🔗 [View Projects](/projects/)
+- 🔗 [View Resume]({{ '/resume/' | relative_url }})
+- 🔗 [View Projects]({{ '/projects/' | relative_url }})
 - 📅 [Book a Chat](https://calendly.com/your-link)
 
 ---
@@ -47,7 +47,7 @@ SDET-focused engineer building robust automation, network validation workflows, 
 - Designed the solution for load balancer and inline traffic simulation use cases.
 - Placed **3rd of 20+ teams** in cPacket SKO competition.
 
-➡️ Read the full project template on the [Projects page](/projects/).
+➡️ Read the full project template on the [Projects page]({{ '/projects/' | relative_url }}).
 
 ---
 

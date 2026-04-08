@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<main id="content" class="page-main">
+  <section class="hero-ticket reveal">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="issue-strip">
+          <span class="issue-key">{{ page.ticket_id }}</span>
+          <span class="issue-type">{{ page.ticket_type }}</span>
+          <span class="status-pill status-pill--{{ page.status | default: 'active' | slugify }}">{{ page.status }}</span>
+          <span class="issue-priority">Priority {{ page.priority }}</span>
+        </div>
+        <p class="eyebrow">Entry Point</p>
+        <h1 class="ticket-title">{{ page.title }}</h1>
+        <p class="ticket-summary">{{ page.summary }}</p>
+        <p class="ticket-objective">{{ page.objective }}</p>
+        <div class="hero-actions">
+          <a class="button button--primary" href="{{ '/resume/' | relative_url }}">Review Resume Evidence</a>
+          <a class="button button--secondary" href="{{ '/projects/' | relative_url }}">Open Case Study</a>
+        </div>
+      </div>
+
+      <aside class="hero-rail">
+        <section class="ticket-panel ticket-panel--tight">
+          <p class="eyebrow">Execution Meta</p>
+          <dl class="field-grid">
+            <div>
+              <dt>Component</dt>
+              <dd>{{ page.component }}</dd>
+            </div>
+            <div>
+              <dt>Owner</dt>
+              <dd>{{ page.owner }}</dd>
+            </div>
+            <div>
+              <dt>Target</dt>
+              <dd>{{ page.review_target }}</dd>
+            </div>
+            <div>
+              <dt>Updated</dt>
+              <dd>{{ site.time | date: "%B %-d, %Y" }}</dd>
+            </div>
+          </dl>
+        </section>
+
+        {% if page.acceptance_criteria %}
+          <section class="ticket-panel ticket-panel--tight">
+            <p class="eyebrow">Acceptance Criteria</p>
+            <ul class="check-list">
+              {% for item in page.acceptance_criteria %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+      </aside>
+    </div>
+  </section>
+
+  <div class="content-grid content-grid--home">
+    <article class="ticket-panel ticket-panel--content prose reveal">
+      {{ content }}
+    </article>
+
+    <aside class="rail-stack">
+      {% if page.execution_notes %}
+        <section class="ticket-panel ticket-panel--tight reveal">
+          <p class="eyebrow">Execution Notes</p>
+          <ul class="detail-list">
+            {% for note in page.execution_notes %}
+              <li>{{ note }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      {% if page.suite_links %}
+        <section class="ticket-panel ticket-panel--tight reveal">
+          <p class="eyebrow">Section Status</p>
+          <div class="mini-card-list">
+            {% for link in page.suite_links %}
+              <a class="mini-card" href="{{ link.url | relative_url }}">
+                <span class="mini-card__title">{{ link.label }}</span>
+                <span class="status-pill status-pill--{{ link.status | slugify }}">{{ link.status }}</span>
+              </a>
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
+    </aside>
+  </div>
+</main>

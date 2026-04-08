@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<main id="content" class="page-main">
+  <section class="page-ticket reveal">
+    <div class="issue-strip">
+      <span class="issue-key">{{ page.ticket_id }}</span>
+      <span class="issue-type">{{ page.ticket_type }}</span>
+      <span class="status-pill status-pill--{{ page.status | default: 'active' | slugify }}">{{ page.status }}</span>
+      <span class="issue-priority">Priority {{ page.priority }}</span>
+    </div>
+    <p class="eyebrow">Ticket Summary</p>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-summary">{{ page.summary }}</p>
+    <dl class="field-grid field-grid--wide">
+      <div>
+        <dt>Objective</dt>
+        <dd>{{ page.objective }}</dd>
+      </div>
+      <div>
+        <dt>Component</dt>
+        <dd>{{ page.component }}</dd>
+      </div>
+      <div>
+        <dt>Owner</dt>
+        <dd>{{ page.owner }}</dd>
+      </div>
+      <div>
+        <dt>Target</dt>
+        <dd>{{ page.review_target }}</dd>
+      </div>
+    </dl>
+  </section>
+
+  <div class="content-grid">
+    <article class="ticket-panel ticket-panel--content prose reveal">
+      {{ content }}
+    </article>
+
+    <aside class="rail-stack">
+      {% if page.checks %}
+        <section class="ticket-panel ticket-panel--tight reveal">
+          <p class="eyebrow">Test Steps</p>
+          <ol class="ordered-checks">
+            {% for item in page.checks %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ol>
+        </section>
+      {% endif %}
+
+      {% if page.evidence %}
+        <section class="ticket-panel ticket-panel--tight reveal">
+          <p class="eyebrow">Evidence Collected</p>
+          <ul class="detail-list">
+            {% for item in page.evidence %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      {% if page.open_items %}
+        <section class="ticket-panel ticket-panel--tight reveal">
+          <p class="eyebrow">Open Items</p>
+          <ul class="detail-list">
+            {% for item in page.open_items %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+    </aside>
+  </div>
+</main>

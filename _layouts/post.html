@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<main id="content" class="page-main">
+  <section class="page-ticket reveal">
+    <div class="issue-strip">
+      <span class="issue-key">{{ page.ticket_id }}</span>
+      <span class="issue-type">{{ page.ticket_type }}</span>
+      <span class="status-pill status-pill--{{ page.status | default: 'baseline' | slugify }}">{{ page.status }}</span>
+      <span class="issue-priority">Published {{ page.date | date: "%b %-d, %Y" }}</span>
+    </div>
+    <p class="eyebrow">Execution Log</p>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-summary">{{ page.summary }}</p>
+    <dl class="field-grid field-grid--wide">
+      <div>
+        <dt>Objective</dt>
+        <dd>{{ page.objective }}</dd>
+      </div>
+      <div>
+        <dt>Component</dt>
+        <dd>{{ page.component }}</dd>
+      </div>
+      <div>
+        <dt>Status</dt>
+        <dd>{{ page.status }}</dd>
+      </div>
+      <div>
+        <dt>Return Path</dt>
+        <dd><a href="{{ '/blog/' | relative_url }}">Back to log index</a></dd>
+      </div>
+    </dl>
+  </section>
+
+  <div class="content-grid">
+    <article class="ticket-panel ticket-panel--content prose reveal">
+      {{ content }}
+    </article>
+
+    <aside class="rail-stack">
+      {% if page.evidence %}
+        <section class="ticket-panel ticket-panel--tight reveal">
+          <p class="eyebrow">Evidence Collected</p>
+          <ul class="detail-list">
+            {% for item in page.evidence %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+    </aside>
+  </div>
+</main>

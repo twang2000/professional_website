@@ -1,54 +1,169 @@
 ---
 layout: home
-title: Tuan Wang
+title: Portfolio Sanity Suite
+description: Public-facing SDET portfolio presented as a QA sanity pass.
+ticket_id: QA-PORT-001
+ticket_type: Sanity Suite
+status: In Progress
+priority: High
+component: Public Portfolio
+owner: Tuan Wang
+review_target: Hiring manager first pass
+summary: Validate that Tuan Wang's public profile communicates automation depth, systems validation experience, and a clear outreach path within one quick review cycle.
+objective: This site is intentionally framed like a lightweight sanity suite. Each section below verifies a signal that matters during early hiring screens: role clarity, evidence of execution, writing quality, and contact readiness.
+acceptance_criteria:
+  - Role scope is obvious from the landing view.
+  - Experience evidence includes measurable automation and validation work.
+  - A project case study shows architecture, testing approach, and outcome.
+  - Writing samples establish technical communication discipline.
+  - Contact options are visible without digging.
+execution_notes:
+  - Styled closer to an editorial knowledge base than a generic developer template.
+  - Jira and QA language is used deliberately so the site feels native to test engineering work.
+  - Open placeholders are surfaced honestly as pending items rather than hidden behind fake links.
+suite_links:
+  - label: Resume Verification
+    url: /resume/
+    status: Pass
+  - label: Project Evidence
+    url: /projects/
+    status: Pass
+  - label: Writing Log
+    url: /blog/
+    status: Baseline
+  - label: Contact Paths
+    url: /contact/
+    status: Needs Input
 ---
+<section class="suite-section">
+  <div class="section-heading">
+    <p class="eyebrow">Coverage Map</p>
+    <h2>Sanity checks in scope</h2>
+    <p>Use the site like a test run. Each section has a single job: verify one dimension of engineering signal and make that evidence easy to inspect.</p>
+  </div>
 
-# Tuan Wang
+  <div class="step-list">
+    <article class="step-card">
+      <div class="step-card__meta">
+        <span>Step 01</span>
+        <span class="status-pill status-pill--pass">Pass</span>
+      </div>
+      <h3><a href="{{ '/resume/' | relative_url }}">Verify experience record demonstrates SDET ownership and measurable execution.</a></h3>
+      <p>Confirms role focus, automation volume, networking context, internal tooling work, and academic credentials in one structured review.</p>
+    </article>
 
-SDET-focused engineer building robust automation, network validation workflows, and internal tools that help teams ship confidently.
+    <article class="step-card">
+      <div class="step-card__meta">
+        <span>Step 02</span>
+        <span class="status-pill status-pill--pass">Pass</span>
+      </div>
+      <h3><a href="{{ '/projects/' | relative_url }}">Verify project evidence shows systems thinking, not just feature output.</a></h3>
+      <p>The featured case study is framed around operational need, architecture, validation approach, and observed impact.</p>
+    </article>
 
-- 📧 [tuanwang1@gmail.com](mailto:tuanwang1@gmail.com)
-- 📍 San Jose, California
-- 🔗 [View Resume]({{ '/resume/' | relative_url }})
-- 🔗 [View Projects]({{ '/projects/' | relative_url }})
-- 📅 [Book a Chat](https://calendly.com/your-link)
+    <article class="step-card">
+      <div class="step-card__meta">
+        <span>Step 03</span>
+        <span class="status-pill status-pill--baseline">Baseline</span>
+      </div>
+      <h3><a href="{{ '/blog/' | relative_url }}">Verify public writing exists and maps to automation, networking, and reliability themes.</a></h3>
+      <p>The blog is intentionally early-stage, but it establishes a publishing lane for implementation notes and engineering retrospectives.</p>
+    </article>
 
----
+    <article class="step-card">
+      <div class="step-card__meta">
+        <span>Step 04</span>
+        <span class="status-pill status-pill--needs-input">Needs Input</span>
+      </div>
+      <h3><a href="{{ '/contact/' | relative_url }}">Verify outreach paths exist, and flag the remaining profile links that still need user input.</a></h3>
+      <p>Email and GitHub are ready now. LinkedIn and scheduling links are left as explicit follow-up items instead of broken placeholders.</p>
+    </article>
+  </div>
+</section>
 
-## SDET Focus Areas
+<section class="suite-section">
+  <div class="section-heading">
+    <p class="eyebrow">Observed Signals</p>
+    <h2>Fast proof for a five-minute review</h2>
+    <p>If the goal is quick signal extraction, these are the numbers and credentials worth seeing before deeper inspection.</p>
+  </div>
 
-- Python-based test automation at scale
-- Network systems testing and synthetic traffic validation
-- CI/CD reliability for cloud and appliance workflows
-- QA tooling that reduces manual overhead and shortens release cycles
+  <div class="metric-grid">
+    <article class="metric-card">
+      <div class="metric-card__label">Automation Scope</div>
+      <div class="metric-card__value">100+</div>
+      <p>Python automation scripts built to increase coverage, reliability, and repeatability.</p>
+    </article>
 
----
+    <article class="metric-card">
+      <div class="metric-card__label">Refactoring Reach</div>
+      <div class="metric-card__value">600+</div>
+      <p>Automated test cases reworked to improve maintainability and reduce redundant logic.</p>
+    </article>
 
-## Experience Snapshot
+    <article class="metric-card">
+      <div class="metric-card__label">Internal Tools</div>
+      <div class="metric-card__value">3</div>
+      <p>QA web applications built to streamline traffic generation, reporting, and system health checks.</p>
+    </article>
 
-### cPacket Networks — Software Development Engineer in Test
-**September 2022 – January 2025**
+    <article class="metric-card">
+      <div class="metric-card__label">Credential Signal</div>
+      <div class="metric-card__value">CCNA</div>
+      <p>Networking fundamentals backed by certification and reinforced by product validation work.</p>
+    </article>
+  </div>
+</section>
 
-- Built 100+ Python automation scripts to improve coverage, efficiency, and reliability.
-- Refactored 600+ automated test cases to improve maintainability and reduce code redundancy.
-- Built internal tools with Flask, SQLite, Gunicorn, JavaScript, and Ajax:
-  - Traffic Generator
-  - X-ray Report Generator
-  - System Health Monitor
-- Validated packet capture and network broker systems across API, migration, monitoring, and PCAP workflows.
+<section class="suite-section">
+  <div class="section-heading">
+    <p class="eyebrow">Execution Context</p>
+    <h2>Primary validation areas</h2>
+    <p>The work here is centered on test engineering that sits close to systems behavior, release reliability, and operator tooling.</p>
+  </div>
 
----
+  <div class="tag-grid">
+    <section class="tag-cluster">
+      <h3>Focus areas</h3>
+      <div class="tag-list">
+        <span class="tag">Python automation</span>
+        <span class="tag">Network validation</span>
+        <span class="tag">Synthetic traffic</span>
+        <span class="tag">CI and release health</span>
+        <span class="tag">QA tooling</span>
+        <span class="tag">Reliability workflows</span>
+      </div>
+    </section>
 
-## Featured Public Project
+    <section class="tag-cluster">
+      <h3>Working stack</h3>
+      <div class="tag-list">
+        <span class="tag">Python</span>
+        <span class="tag">Flask</span>
+        <span class="tag">SQLite</span>
+        <span class="tag">Gunicorn</span>
+        <span class="tag">AWS</span>
+        <span class="tag">RabbitMQ</span>
+        <span class="tag">GitHub Actions</span>
+        <span class="tag">Docker</span>
+      </div>
+    </section>
+  </div>
+</section>
 
-### Groundhog — Synthetic Network Traffic Generator (Hackathon)
-
-- Built an AWS-based traffic generator with RabbitMQ for on-demand scenario testing.
-- Designed the solution for load balancer and inline traffic simulation use cases.
-- Placed **3rd of 20+ teams** in cPacket SKO competition.
-
-➡️ Read the full project template on the [Projects page]({{ '/projects/' | relative_url }}).
-
----
-
-> For implementation notes and engineering writeups, use the **Blog** link in the top navigation.
+<section class="suite-section">
+  <div class="summary-band">
+    <div class="summary-band__item">
+      <span class="summary-band__label eyebrow">Current state</span>
+      <span class="summary-band__value">Core portfolio path is working and presentable.</span>
+    </div>
+    <div class="summary-band__item">
+      <span class="summary-band__label eyebrow">Main next fix</span>
+      <span class="summary-band__value">Replace pending LinkedIn and scheduling placeholders with final URLs.</span>
+    </div>
+    <div class="summary-band__item">
+      <span class="summary-band__label eyebrow">Best review order</span>
+      <span class="summary-band__value">Resume -> Projects -> Blog -> Contact</span>
+    </div>
+  </div>
+</section>

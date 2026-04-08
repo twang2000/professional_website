@@ -23,7 +23,7 @@ Personal website for **Tuan Wang**, focused on SDET experience, projects, and te
    ```bash
    bundle exec jekyll serve
    ```
-4. Open `http://127.0.0.1:4000`.
+4. Open `http://127.0.0.1:4000/professional_website/`.
 
 ## Publish on GitHub Pages
 1. Push this repository to GitHub.
@@ -33,6 +33,7 @@ Personal website for **Tuan Wang**, focused on SDET experience, projects, and te
 
 ## Notes for This Repo
 - This is a project site, not a user site, so links must respect the repository base path.
+- The repository base path is currently `/professional_website`.
 - The Pages workflow uses GitHub's built-in Jekyll Pages action.
 
 ## Next Customizations

@@ -1,7 +1,7 @@
 title: Tuan Wang
 description: SDET Portfolio | Test Automation | Network Systems Validation
-url: ""
-baseurl: ""
+url: "https://twang2000.github.io"
+baseurl: "/professional_website"
 theme: minima
 markdown: kramdown
 

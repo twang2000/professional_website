@@ -118,14 +118,12 @@ a:hover {
   padding: 1.2rem 1.3rem;
   border: 2px solid rgba(139, 199, 255, 0.46);
   border-radius: 30px;
-  background-color: #07192e;
+  background-color: #081f38;
   background-image:
-    radial-gradient(circle at 8% 0%, rgba(79, 172, 254, 0.52), transparent 28%),
-    radial-gradient(circle at 86% 20%, rgba(74, 222, 128, 0.22), transparent 22%),
-    linear-gradient(135deg, #07192e 0%, #0b2b52 58%, #102f4c 100%);
+    linear-gradient(135deg, #081f38 0%, #0b2847 100%);
   box-shadow:
-    0 30px 90px rgba(4, 15, 31, 0.42),
-    0 0 0 6px rgba(12, 102, 228, 0.08),
+    0 12px 32px rgba(4, 15, 31, 0.24),
+    0 0 0 2px rgba(12, 102, 228, 0.04),
     inset 0 1px 0 rgba(255, 255, 255, 0.14);
   backdrop-filter: blur(18px);
 }

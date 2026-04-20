@@ -10,62 +10,61 @@ priority: High
 component: Experience and Credentials
 owner: Tuan Wang
 review_target: Recruiter and engineering manager screen
-summary: Verify that the candidate profile demonstrates repeatable ownership of automation, networking validation, and internal QA tooling work.
+summary: SDET targeting QA Automation Engineer and Network Systems Test Engineer roles, with proof in Python automation, network validation, and internal QA tooling used by 10-20 engineers.
 objective: Convert a resume into a structured review artifact so the reader can validate scope, measurable output, and technical range without scanning a dense one-page document.
-checks:
-  - Verify the opening statement establishes SDET specialization across automation, networking, and tooling.
-  - Confirm recent experience includes measurable scale and product-system context.
-  - Confirm teaching and academic history strengthen communication and fundamentals.
-  - Confirm certifications and tooling coverage align with network-heavy QA work.
 evidence:
   - 100+ Python automation scripts
   - 600+ refactored automated tests
   - 3 internal QA web tools
-  - CCNA and M.S. Computer Science in progress
+  - Internal tools used by 10-20 QA and development engineers
+  - Overnight automation doubled QA throughput and test case coverage
 ---
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Experience Proof</p>
-    <h2>Automation, systems validation, and QA tooling in practice</h2>
-    <p>The goal is not to repeat every line of a resume. The goal is to make the hiring signal obvious.</p>
+    <p class="eyebrow">Fast Screen</p>
+    <h2>Proof that I can raise QA throughput</h2>
+    <p>The strongest hiring signal is practical: automation and internal tooling helped the QA team run more work overnight, cover more test cases, and shorten regression cycles.</p>
   </div>
 
-  <div class="step-list">
-    <article class="step-card">
-      <div class="step-card__meta">
-        <span>Step 01</span>
-        <span class="status-pill status-pill--pass">Pass</span>
-      </div>
-      <h3>Verify role scope is explicit from the opening statement.</h3>
-      <p>SDET profile is anchored in large-scale automation, networking product validation, and internal QA tooling rather than generic software work.</p>
+  <div class="metric-grid">
+    <article class="metric-card">
+      <div class="metric-card__label">Automation Scripts</div>
+      <div class="metric-card__value">100+</div>
+      <p>Python scripts covering regression, performance, soak, and network validation workflows.</p>
     </article>
 
-    <article class="step-card">
-      <div class="step-card__meta">
-        <span>Step 02</span>
-        <span class="status-pill status-pill--pass">Pass</span>
-      </div>
-      <h3>Confirm recent industry work includes measurable impact.</h3>
-      <p>Recent cPacket work shows script volume, test-suite refactoring, and direct ownership of tools used to improve validation workflows.</p>
+    <article class="metric-card">
+      <div class="metric-card__label">Test Refactor Scope</div>
+      <div class="metric-card__value">600+</div>
+      <p>Automated tests refactored to reduce repeated logic and improve maintainability.</p>
     </article>
 
-    <article class="step-card">
-      <div class="step-card__meta">
-        <span>Step 03</span>
-        <span class="status-pill status-pill--pass">Pass</span>
-      </div>
-      <h3>Confirm there is systems depth behind the tooling layer.</h3>
-      <p>The experience is grounded in packet capture appliances, network brokers, APIs, migration paths, monitoring, and PCAP-driven workflows.</p>
+    <article class="metric-card">
+      <div class="metric-card__label">Tool Users</div>
+      <div class="metric-card__value">10-20</div>
+      <p>QA and development engineers used internal tools for traffic generation, reporting, and health checks.</p>
     </article>
 
-    <article class="step-card">
-      <div class="step-card__meta">
-        <span>Step 04</span>
-        <span class="status-pill status-pill--pass">Pass</span>
-      </div>
-      <h3>Verify the profile has teaching and formal-study signal, not just implementation signal.</h3>
-      <p>Teaching assistant work and graduate study reinforce communication, fundamentals, and continued growth.</p>
+    <article class="metric-card">
+      <div class="metric-card__label">QA Throughput</div>
+      <div class="metric-card__value">2x</div>
+      <p>Overnight automation roughly doubled production throughput and test case coverage.</p>
     </article>
+  </div>
+</section>
+
+<section class="suite-section">
+  <div class="section-heading">
+    <p class="eyebrow">Target Roles</p>
+    <h2>Roles this experience maps to directly</h2>
+  </div>
+
+  <div class="tag-cluster">
+    <div class="tag-list">
+      <span class="tag">SDET</span>
+      <span class="tag">QA Automation Engineer</span>
+      <span class="tag">Network Systems Test Engineer</span>
+    </div>
   </div>
 </section>
 
@@ -79,7 +78,7 @@ evidence:
   <div class="matrix-grid">
     <article class="matrix-card">
       <h3>Python automation</h3>
-      <p>Built 100+ scripts and maintained automated validation workflows for networking products and QA operations.</p>
+      <p>Built 100+ scripts covering regression, performance, soak, and system validation workflows.</p>
     </article>
 
     <article class="matrix-card">
@@ -94,12 +93,12 @@ evidence:
 
     <article class="matrix-card">
       <h3>Internal QA tooling</h3>
-      <p>Built Flask, SQLite, Gunicorn, JavaScript, and Ajax tools for traffic generation, reporting, and system health visibility.</p>
+      <p>Built Flask, SQLite, Gunicorn, JavaScript, and Ajax tools used by 10-20 QA and development engineers.</p>
     </article>
 
     <article class="matrix-card">
       <h3>Release reliability</h3>
-      <p>Focused automation and tooling on repeatable checks, faster validation cycles, and reduced manual QA overhead.</p>
+      <p>Improved overnight runs and faster regression cycles, roughly doubling QA throughput and test coverage.</p>
     </article>
 
     <article class="matrix-card">
@@ -119,7 +118,14 @@ evidence:
     <div class="timeline-entry__date">2022 - 2025</div>
     <div>
       <h3>cPacket Networks Inc. | Software Development Engineer in Test</h3>
-      <p>Built more than 100 Python automation scripts, refactored more than 600 tests using shared inheritance patterns, and shipped three internal QA web tools using Flask, SQLite, Gunicorn, JavaScript, and Ajax. Validation scope covered packet capture appliances, network brokers, and control workflows.</p>
+      <ul>
+        <li>Built 100+ Python automation scripts across regression, performance, soak, and network validation test coverage.</li>
+        <li>Improved overnight automation runs, roughly doubling QA production throughput and test case coverage.</li>
+        <li>Refactored 600+ automated tests using shared inheritance patterns to reduce duplicated logic and improve maintainability.</li>
+        <li>Built three internal QA web tools with Flask, SQLite, Gunicorn, JavaScript, and Ajax for traffic generation, report generation, and system health monitoring.</li>
+        <li>Supported 10-20 QA and development users through internal tooling that reduced manual validation overhead.</li>
+        <li>Validated packet capture appliances, network brokers, APIs, migrations, monitoring workflows, and PCAP-driven behavior.</li>
+      </ul>
     </div>
   </article>
 

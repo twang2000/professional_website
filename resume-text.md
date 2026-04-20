@@ -35,9 +35,11 @@ evidence:
     <h2>Experience</h2>
     <h3>cPacket Networks Inc. | Software Development Engineer in Test | Sept 2022 - Jan 2025</h3>
     <ul>
-      <li>Built 100+ Python automation scripts to improve validation coverage, repeatability, and release confidence.</li>
+      <li>Built 100+ Python automation scripts covering regression, performance, soak, and network validation workflows.</li>
+      <li>Improved overnight automation runs, roughly doubling QA production throughput and test case coverage.</li>
       <li>Refactored 600+ automated test cases using shared inheritance patterns to reduce duplicated logic and improve maintainability.</li>
       <li>Built internal QA web tools with Flask, SQLite, Gunicorn, JavaScript, and Ajax for traffic generation, reporting, and system health monitoring.</li>
+      <li>Supported 10-20 QA and development users through tools that reduced manual validation overhead.</li>
       <li>Validated packet capture appliances, network brokers, APIs, migration workflows, monitoring behavior, and PCAP-based scenarios.</li>
     </ul>
 

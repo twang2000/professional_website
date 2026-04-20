@@ -5,6 +5,7 @@ Personal website for **Tuan Wang**, focused on SDET experience, projects, and te
 ## Site Map
 - `/` Home (SDET-first landing page)
 - `/resume/` Resume details
+- `/resume-text/` Printable recruiter handoff resume
 - `/projects/` Project portfolio (currently Groundhog template)
 - `/blog/` Blog index (posts live under `_posts/`)
 - `/contact/` Contact and scheduling links

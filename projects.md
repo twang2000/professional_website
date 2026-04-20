@@ -116,6 +116,31 @@ evidence:
 
 <section class="suite-section">
   <div class="section-heading">
+    <p class="eyebrow">Hiring Signal</p>
+    <h2>What this case study should prove</h2>
+    <p>Project evidence matters most when it shows how the candidate thinks under constraints.</p>
+  </div>
+
+  <div class="matrix-grid">
+    <article class="matrix-card">
+      <h3>Problem decomposition</h3>
+      <p>Traffic generation need was translated into reusable scenarios rather than a single hard-coded demo path.</p>
+    </article>
+
+    <article class="matrix-card">
+      <h3>Systems judgment</h3>
+      <p>AWS and RabbitMQ were used to separate orchestration from execution, which fits bursty validation workflows.</p>
+    </article>
+
+    <article class="matrix-card">
+      <h3>QA relevance</h3>
+      <p>The output directly supports repeatable network tests, load-balancer checks, and inline traffic simulation.</p>
+    </article>
+  </div>
+</section>
+
+<section class="suite-section">
+  <div class="section-heading">
     <p class="eyebrow">Queued Follow-up</p>
     <h2>Additional public case studies to add</h2>
   </div>

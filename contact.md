@@ -65,6 +65,15 @@ open_items:
       <h3>LinkedIn and Scheduling</h3>
       <p>These links are intentionally left unlinked until the final public URLs are ready.</p>
     </article>
+
+    <article class="link-card">
+      <div class="step-card__meta">
+        <span>Recruiter Handoff</span>
+        <span class="status-pill status-pill--live">Live</span>
+      </div>
+      <h3>Printable Resume</h3>
+      <p><a href="{{ '/resume-text/' | relative_url }}">Open recruiter-friendly resume page</a></p>
+    </article>
   </div>
 </section>
 

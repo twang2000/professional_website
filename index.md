@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Portfolio Sanity Suite
-description: Public-facing SDET portfolio presented as a QA sanity pass.
+title: SDET for Python Automation and Network Validation
+description: SDET portfolio focused on Python automation, network systems validation, and QA tooling.
 ticket_id: QA-PORT-001
 ticket_type: Sanity Suite
 status: In Progress
@@ -9,14 +9,15 @@ priority: High
 component: Public Portfolio
 owner: Tuan Wang
 review_target: Hiring manager first pass
-summary: Validate that Tuan Wang's public profile communicates automation depth, systems validation experience, and a clear outreach path within one quick review cycle.
-objective: This site is intentionally framed like a lightweight sanity suite. Each section below verifies a signal that matters during early hiring screens: role clarity, evidence of execution, writing quality, and contact readiness.
+summary: SDET focused on Python automation, network systems validation, and QA tooling for teams that need repeatable release confidence.
+objective: This site acts like a hiring sanity suite. It verifies role fit, hard-skill evidence, project judgment, written communication, and contact readiness without forcing a recruiter to decode a generic portfolio.
 acceptance_criteria:
   - Role scope is obvious from the landing view.
   - Experience evidence includes measurable automation and validation work.
   - A project case study shows architecture, testing approach, and outcome.
   - Writing samples establish technical communication discipline.
   - Contact options are visible without digging.
+  - Printable resume path exists for recruiter handoff.
 execution_notes:
   - Styled closer to an editorial knowledge base than a generic developer template.
   - Jira and QA language is used deliberately so the site feels native to test engineering work.
@@ -34,7 +35,35 @@ suite_links:
   - label: Contact Paths
     url: /contact/
     status: Needs Input
+  - label: Printable Resume
+    url: /resume-text/
+    status: Pass
 ---
+<section class="suite-section">
+  <div class="section-heading">
+    <p class="eyebrow">Recruiter Scan Path</p>
+    <h2>Target role, proof, and next action in one pass</h2>
+    <p>Current job search favors skills proof over vague branding. This page puts role fit first, then backs it with measurable automation work and project evidence.</p>
+  </div>
+
+  <div class="matrix-grid">
+    <article class="matrix-card">
+      <h3>Target role</h3>
+      <p>SDET, QA Automation Engineer, or test-focused software engineer working near networking, infrastructure, systems, or release reliability.</p>
+    </article>
+
+    <article class="matrix-card">
+      <h3>Core proof</h3>
+      <p>100+ Python automation scripts, 600+ refactored tests, 3 internal QA tools, and networking validation experience across packet capture and control workflows.</p>
+    </article>
+
+    <article class="matrix-card">
+      <h3>Best next click</h3>
+      <p>Use Resume Verification for fast screening, Project Evidence for technical depth, or Printable Resume for handoff.</p>
+    </article>
+  </div>
+</section>
+
 <section class="suite-section">
   <div class="section-heading">
     <p class="eyebrow">Coverage Map</p>

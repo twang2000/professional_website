@@ -371,6 +371,12 @@ a:hover {
   color: var(--text);
 }
 
+.button--ghost {
+  border-color: transparent;
+  background: rgba(220, 234, 253, 0.38);
+  color: var(--accent-deep);
+}
+
 .field-grid {
   margin: 0;
   display: grid;
@@ -600,6 +606,42 @@ a:hover {
   font-weight: 700;
 }
 
+.matrix-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.matrix-card {
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.matrix-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.matrix-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.resume-document {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.resume-document h2 {
+  margin-bottom: 0.25rem;
+}
+
+.resume-document ul {
+  margin-top: 0.35rem;
+}
+
 .empty-state {
   padding: 1rem 1.05rem;
   border-radius: var(--radius-lg);
@@ -638,6 +680,7 @@ a:hover {
   .metric-grid,
   .tag-grid,
   .summary-band,
+  .matrix-grid,
   .link-grid {
     grid-template-columns: 1fr;
   }
@@ -668,5 +711,40 @@ a:hover {
 
   .button {
     width: 100%;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  body::before,
+  .site-header,
+  .site-footer,
+  .rail-stack,
+  .issue-strip,
+  .hero-actions {
+    display: none;
+  }
+
+  .site-shell,
+  .ticket-panel,
+  .page-ticket,
+  .ticket-panel--content {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    background: #fff;
+  }
+
+  .content-grid {
+    display: block;
+  }
+
+  a {
+    color: #000;
   }
 }

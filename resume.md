@@ -70,6 +70,46 @@ evidence:
 
 <section class="suite-section">
   <div class="section-heading">
+    <p class="eyebrow">Skills Evidence Matrix</p>
+    <h2>Claims mapped to proof</h2>
+    <p>Recruiters screen for keywords. Hiring managers screen for proof. This matrix keeps both paths readable.</p>
+  </div>
+
+  <div class="matrix-grid">
+    <article class="matrix-card">
+      <h3>Python automation</h3>
+      <p>Built 100+ scripts and maintained automated validation workflows for networking products and QA operations.</p>
+    </article>
+
+    <article class="matrix-card">
+      <h3>Test architecture</h3>
+      <p>Refactored 600+ automated tests using shared inheritance patterns to reduce repeated logic and improve maintainability.</p>
+    </article>
+
+    <article class="matrix-card">
+      <h3>Network validation</h3>
+      <p>Validated packet capture appliances, network brokers, APIs, migrations, monitoring, and PCAP-driven behavior.</p>
+    </article>
+
+    <article class="matrix-card">
+      <h3>Internal QA tooling</h3>
+      <p>Built Flask, SQLite, Gunicorn, JavaScript, and Ajax tools for traffic generation, reporting, and system health visibility.</p>
+    </article>
+
+    <article class="matrix-card">
+      <h3>Release reliability</h3>
+      <p>Focused automation and tooling on repeatable checks, faster validation cycles, and reduced manual QA overhead.</p>
+    </article>
+
+    <article class="matrix-card">
+      <h3>Communication</h3>
+      <p>Teaching assistant background plus public writing lane support clear issue explanation, docs, and cross-team debugging.</p>
+    </article>
+  </div>
+</section>
+
+<section class="suite-section">
+  <div class="section-heading">
     <p class="eyebrow">Execution Timeline</p>
     <h2>Relevant experience in chronological order</h2>
   </div>

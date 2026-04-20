@@ -14,8 +14,8 @@ evidence:
 ---
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Baseline Decision</p>
-    <h2>Why this site exists</h2>
+    <p class="eyebrow">Portfolio Direction</p>
+    <h2>Positioning the site around SDET evidence</h2>
     <p>The portfolio should foreground SDET work with real engineering context: automation scale, network validation depth, and internal tools that improved how testing happened.</p>
   </div>
 </section>
@@ -23,7 +23,7 @@ evidence:
 <section class="suite-section">
   <div class="section-heading">
     <p class="eyebrow">Planned Coverage</p>
-    <h2>Writing themes queued next</h2>
+    <h2>Writing themes that support hiring signal</h2>
   </div>
 
   <div class="tag-cluster">

@@ -25,8 +25,8 @@ evidence:
 ---
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Validation Steps</p>
-    <h2>What this section proves</h2>
+    <p class="eyebrow">Experience Proof</p>
+    <h2>Automation, systems validation, and QA tooling in practice</h2>
     <p>The goal is not to repeat every line of a resume. The goal is to make the hiring signal obvious.</p>
   </div>
 
@@ -71,8 +71,8 @@ evidence:
 
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Skills Evidence Matrix</p>
-    <h2>Claims mapped to proof</h2>
+    <p class="eyebrow">Skills Evidence</p>
+    <h2>Skills backed by concrete work</h2>
     <p>Recruiters screen for keywords. Hiring managers screen for proof. This matrix keeps both paths readable.</p>
   </div>
 
@@ -111,8 +111,8 @@ evidence:
 
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Execution Timeline</p>
-    <h2>Relevant experience in chronological order</h2>
+    <p class="eyebrow">Work History</p>
+    <h2>Recent roles that shaped my SDET focus</h2>
   </div>
 
   <article class="timeline-entry">
@@ -143,7 +143,7 @@ evidence:
 <section class="suite-section">
   <div class="section-heading">
     <p class="eyebrow">Toolchain Coverage</p>
-    <h2>Stack and domain familiarity</h2>
+    <h2>Tools I have used to test, debug, and ship</h2>
   </div>
 
   <div class="tag-grid">

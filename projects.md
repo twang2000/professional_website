@@ -25,8 +25,8 @@ evidence:
 ---
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Featured Record</p>
-    <h2>Groundhog | Synthetic Network Traffic Generator</h2>
+    <p class="eyebrow">Featured Case Study</p>
+    <h2>Groundhog proves I can build test infrastructure</h2>
     <p>The strongest public story right now is not a generic CRUD app. It is a testing utility built around realistic network validation needs.</p>
   </div>
 
@@ -72,7 +72,7 @@ evidence:
 <section class="suite-section">
   <div class="section-heading">
     <p class="eyebrow">Implementation Snapshot</p>
-    <h2>Core system notes</h2>
+    <h2>Architecture choices tied to validation needs</h2>
   </div>
 
   <div class="tag-grid">
@@ -118,7 +118,7 @@ evidence:
 <section class="suite-section">
   <div class="section-heading">
     <p class="eyebrow">Hiring Signal</p>
-    <h2>What this case study should prove</h2>
+    <h2>How this project maps to real QA work</h2>
     <p>Project evidence matters most when it shows how the candidate thinks under constraints.</p>
   </div>
 
@@ -142,8 +142,8 @@ evidence:
 
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Queued Follow-up</p>
-    <h2>Additional public case studies to add</h2>
+    <p class="eyebrow">More Evidence Coming</p>
+    <h2>Next case studies that will strengthen the portfolio</h2>
   </div>
 
   <div class="step-list">

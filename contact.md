@@ -25,8 +25,8 @@ open_items:
 ---
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Available Now</p>
-    <h2>Active contact methods</h2>
+    <p class="eyebrow">Next Step</p>
+    <h2>Contact paths for recruiters and hiring teams</h2>
     <p>The goal here is simple: keep the real channels obvious and keep unfinished ones visible as pending tasks.</p>
   </div>
 

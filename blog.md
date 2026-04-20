@@ -22,8 +22,8 @@ evidence:
 ---
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Current State</p>
-    <h2>Baseline is established</h2>
+    <p class="eyebrow">Writing Signal</p>
+    <h2>Technical communication belongs in the portfolio</h2>
     <p>This section is intentionally lean right now. That is acceptable as long as the lane is active and clearly tied to the rest of the portfolio.</p>
   </div>
 
@@ -50,8 +50,8 @@ evidence:
 
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Execution Log</p>
-    <h2>Published entries</h2>
+    <p class="eyebrow">Published Notes</p>
+    <h2>Writing that documents engineering judgment</h2>
   </div>
 
   {% if site.posts.size > 0 %}
@@ -75,7 +75,7 @@ evidence:
 <section class="suite-section">
   <div class="section-heading">
     <p class="eyebrow">Planned Coverage</p>
-    <h2>Topics queued for future notes</h2>
+    <h2>Topics that show how I think about testing</h2>
   </div>
 
   <div class="tag-cluster">

@@ -66,9 +66,9 @@ suite_links:
 
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Coverage Map</p>
-    <h2>Sanity checks in scope</h2>
-    <p>Use the site like a test run. Each section has a single job: verify one dimension of engineering signal and make that evidence easy to inspect.</p>
+    <p class="eyebrow">Hiring Evidence</p>
+    <h2>Why I fit SDET and automation roles</h2>
+    <p>Each section proves one hiring signal: role clarity, automation depth, project judgment, writing quality, and contact readiness.</p>
   </div>
 
   <div class="step-list">
@@ -146,8 +146,8 @@ suite_links:
 
 <section class="suite-section">
   <div class="section-heading">
-    <p class="eyebrow">Execution Context</p>
-    <h2>Primary validation areas</h2>
+    <p class="eyebrow">Technical Focus</p>
+    <h2>Where I create testing leverage</h2>
     <p>The work here is centered on test engineering that sits close to systems behavior, release reliability, and operator tooling.</p>
   </div>
 

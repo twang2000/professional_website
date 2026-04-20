@@ -3,6 +3,7 @@ layout: page
 title: Writing Log
 permalink: /blog/
 ticket_id: QA-BLG-004
+nav_id: QA-4
 ticket_type: Knowledge Base Review
 status: Baseline
 priority: Medium

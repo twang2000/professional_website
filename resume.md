@@ -3,6 +3,7 @@ layout: page
 title: Resume Verification
 permalink: /resume/
 ticket_id: QA-RES-002
+nav_id: QA-2
 ticket_type: Evidence Review
 status: Pass
 priority: High

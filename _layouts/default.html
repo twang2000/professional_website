@@ -16,7 +16,9 @@
     <div class="site-shell">
       <header class="site-header">
         <div class="brand-lockup">
-          <a class="brand-mark" href="{{ '/' | relative_url }}">QA</a>
+          <a class="brand-mark" href="{{ '/' | relative_url }}" aria-label="Home">
+            <span class="home-icon" aria-hidden="true"></span>
+          </a>
           <div class="brand-copy">
             <p class="eyebrow">Sanity Portfolio Suite</p>
             <a class="brand-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
@@ -25,7 +27,7 @@
 
         <nav class="site-nav" aria-label="Primary">
           <a class="nav-link{% if page.url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}">
-            <span class="nav-link__key">QA-001</span>
+            <span class="nav-link__key">QA-1</span>
             <span>Overview</span>
           </a>
           {% for path in site.header_pages %}
@@ -39,7 +41,7 @@
               {% endif %}
               <a class="nav-link{% if is_active %} is-active{% endif %}" href="{{ nav_page.url | relative_url }}">
                 {% if nav_page.ticket_id %}
-                  <span class="nav-link__key">{{ nav_page.ticket_id }}</span>
+                  <span class="nav-link__key">{{ nav_page.nav_id | default: nav_page.ticket_id }}</span>
                 {% endif %}
                 <span>{{ nav_page.title }}</span>
               </a>
